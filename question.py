@@ -37,13 +37,6 @@ class QuestionCog(commands.Cog):
 
     @commands.command()
     async def Questions(self, ctx):
-        await ctx.send("Le test dure entre 5-10min en fonction de votre temps de r  flection, vous avez 3 minut>
- ^|^e signifie **absolument**
- ^=^q^m signifie **Oui**
- ^=^q^n signifie **Non**
- ^}^l signifie **Absolument Pas**
-
-S'il vous plait, faites le test d'une traite! "
         res=[]
         liste_emoji=[' ^|^e',' ^=^q^m', ' ^=^q^n',' ^}^l']
         global liste_questions
