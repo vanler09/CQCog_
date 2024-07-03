@@ -1,0 +1,2 @@
+# CQCog_
+Cog redbot 
