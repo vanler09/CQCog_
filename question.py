@@ -2,31 +2,31 @@ from redbot.core import commands
 
 liste_questions= [
 "1  Le patriarcat existe : ",
-"2  Le travail domestique doit   tre reconnu et compens   : ",
-"3  L'h  t  rosexualit   est une norme sociale inchangeable : ",
-"4  Il faut apprendre le consentement d  s l'  cole : ",
-"5  Les femmes subissent une tr  s forte pression sociale pour enfanter : ",
+"2  Le travail domestique doit être reconnu et compensé : ",
+"3  L'hétérosexualité est une norme sociale inchangeable : ",
+"4  Il faut apprendre le consentement dès l'école : ",
+"5  Les femmes subissent une très forte pression sociale pour enfanter : ",
 "6  Il faut renforcer les dispositifs de protection et d'accompagnement des personnes trans :",
-"7  L ^`^yid  ologie LGBTQIA+ existe : ",
-"8  Les athl  tes trans doivent pouvoir participer de mani  re inconditionnelle aux comp  titions sportives : ",
-"9  Les   tablissements scolaires devraient supprimer les toilettes genr  es : ",
-"10  L'  cole doit   tre inclusive politiquement et techniquement : elle doit accueillir tous les enfants, ind >
-"11  Faire des fautes d'orthographe, de grammaire et de syntaxe nuit    l'argumentation : ",
-"12  Il faut r  gulariser tous les   trangers et leur accorder le droit de vote : ",
-"13  Il est l  gitime d'  tre nationaliste kanak ou nationaliste berb  re : ",
-"14  Il faut conserver et d  velopper le nucl  aire civil : ",
-"15  Mon pays doit payer pour r  parer les d  g  ts caus  s par les crimes qu'il a commis    l'  tranger : ",
-"16  L'  criture inclusive est une menace pour la langue fran  aise : ",
-"17  Toute tradition doit pouvoir   tre remise en question : ",
+"7  L’idéologie LGBTQIA+ existe : ",
+"8  Les athlètes trans doivent pouvoir participer de manière inconditionnelle aux compétitions sportives : ",
+"9  Les établissements scolaires devraient supprimer les toilettes genrées : ",
+"10  L'école doit être inclusive politiquement et techniquement : elle doit accueillir tous les enfants, indépendamment de toute forme de handicap : ",
+"11  Faire des fautes d'orthographe, de grammaire et de syntaxe nuit à l'argumentation : ",
+"12  Il faut régulariser tous les étrangers et leur accorder le droit de vote : ",
+"13  Il est légitime d'être nationaliste kanak ou nationaliste berbère : ",
+"14  Il faut conserver et développer le nucléaire civil : ",
+"15  Mon pays doit payer pour réparer les dégâts causés par les crimes qu'il a commis à l'étranger : ",
+"16  L'écriture inclusive est une menace pour la langue française : ",
+"17  Toute tradition doit pouvoir être remise en question : ",
 "18  Il est raciste et sexiste d'interdire le port du voile en France : ",
 "19  La peine de mort n'est jamais justifiable : ",
-"20  Le principe *mon corps, mon choix* doit d  terminer toute r  glementation sur l'avortement : ",
-"21  La tr  s grande majorit   des d  tenu  es n'a pas besoin d'  tre incarc  r  e dans des   tablissements p  >
-"22  Les personnes sortant de prison doivent b  n  ficier d'un accompagnement rigoureux : ",
-"23  La police doit   tre arm  e : ",
+"20  Le principe *mon corps, mon choix* doit déterminer toute réglementation sur l'avortement : ",
+"21  La très grande majorité des détenu·es n'a pas besoin d'être incarcérée dans des établissements pénitentiaires fermés : ",
+"22  Les personnes sortant de prison doivent bénéficier d'un accompagnement rigoureux : ",
+"23  La police doit être armée : ",
 "24  Les peines lourdes sont efficaces car elles sont dissuasives : ",
 "25  La Russie est pleinement responsable du conflit actuel avec l'Ukraine : ",
-"26  Une campagne de vaccination est pr  f  rable au risque d'  pid  mie : " ]
+"26  Une campagne de vaccination est préférable au risque d'épidémie : " ]
 
 class QuestionCog(commands.Cog):
     def __init__(self,bot):
