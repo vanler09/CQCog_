@@ -1,5 +1,6 @@
 from redbot.core import commands 
 
+
 liste_questions= [
 "1  Le patriarcat existe : ",
 "2  Le travail domestique doit être reconnu et compensé : ",
