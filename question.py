@@ -1,7 +1,4 @@
 from redbot.core import commands 
-import sys
-
-sys.path.append('/home/vanler/Red-DiscordBot/cogs/CQCog')
 
 liste_questions= [
 "1  Le patriarcat existe : ",
